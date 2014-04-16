@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.slayer.model.orderId">
+		<field name="transactionId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="buyer" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="amount" type="String" />
+		<field name="currencyType" type="String" />
+		<field name="receiverEmail" type="String" />
+		<field name="payerEmail" type="String" />
+		<field name="debit" type="String" />
+		<field name="credit" type="String" />
+	</model>
+</model-hints>

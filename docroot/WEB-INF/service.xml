@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+<service-builder package-path="com.slayer">
+	<author>nithesh</author>
+	<namespace>CrowdFunds</namespace>
+    
+    <entity name="orderId" local-service="true" remote-service="true">
+     <!-- PK fields -->
+ 	<column name="transactionId" type="long" primary="true" id-type="increment" />
+ 	<!-- Audit fields -->
+ 		<column name="companyId" type="long" />
+		<column name="buyer" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="amount" type="String" />
+        <column name="currencyType" type="String" />
+        <column name="receiverEmail" type="String" />
+        <column name="payerEmail" type="String" />
+        <column name="debit" type="String" />
+        <column name="credit" type="String" />
+     </entity>
+</service-builder>
